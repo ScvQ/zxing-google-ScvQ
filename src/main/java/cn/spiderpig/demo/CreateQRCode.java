@@ -21,7 +21,8 @@ public class CreateQRCode {
         int width = 300;
         int height = 300;
         String format = "png";
-        String content = "蜘蛛猪";
+        String content = "http:/"+"/58.56.110.142/imtt.dd.qq.com/16891/8C3E058EAFBFD4F1EFE0AAA815250716.apk?mkey=593a3aedae285d65&f=3580&c=0&fsname=com.tencent.mobileqq_7.1.0_692.apk&csr=1bbd&p=.apk"
+;
 
         // 解决中文乱码
         content = new String(content.getBytes("UTF-8"), "ISO-8859-1");
